@@ -1,0 +1,50 @@
+*
+  line-height: 1em
+  font-weight: 400
+  color: #000
+  font-family: 'Roboto', sans-serif
+
+
+h1,h2,h3,h4,h5,h6
+  margin-bottom: 1em
+  &:last-child
+    margin-bottom: 0
+
+p,span
+
+
+ul
+
+ol
+
+.typography
+  &::after
+    content: ''
+    display: table
+    clear: both
+  .align-right
+    float: right
+    margin-left: 20px
+    margin-bottom: 5px
+    max-width: 50%
+    +r(639)
+      max-width: 100%
+      float: none
+      margin: auto
+      margin-bottom: 16px
+  .align-left
+    float: left
+    margin-right: 20px
+    margin-bottom: 5px
+    max-width: 50%
+    +r(639)
+      max-width: 100%
+      float: none
+      margin: auto
+      margin-bottom: 16px
+
+  h1,h2,h3,h4,h5,h6
+  p
+  a
+    transition: all 0.2s ease
+    &:hover
